@@ -1,0 +1,250 @@
+<style>
+    .html{
+        font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif
+    }
+    .top-panel {
+        background: linear-gradient(rgba(35, 76, 114, 0.7) 90%, white);
+        color: white;
+        padding-left: 20px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0px 10px 0px 0px rgba(35, 76, 114, 0.2);
+    }
+
+    .left-panel {
+        background: linear-gradient(rgba(35, 76, 114, 0.05), white);
+        border-right: 1px solid black;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .glass-frame {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(20px);
+        z-index: -100;
+        background: linear-gradient(rgba(35, 76, 114, 0.7) 60%, white);
+    }
+
+    .right-panel {
+        box-shadow: -10px 0px 0px 0px rgba(35, 76, 114, 0.1);
+        color: white;
+        width: 35%;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        padding: 10px;
+        position: relative;
+    }
+
+    .date {
+        white-space: nowrap;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        font-size: smaller;
+    }
+
+    .title {
+        font-weight: bolder;
+        font-size: smaller;
+    }
+
+    .subtitle {
+        font-size: small;
+    }
+
+    ul {
+        padding-inline-start: 0;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        font-size: smaller;
+    }
+
+    section {
+        margin-top: 5px;
+        font-size: smaller;
+    }
+</style>
+<html style="width: 100%; height: 100%;">
+
+<head>
+</head>
+
+<body
+    style="width: 100%; height: 100%; margin: 0; display: flex; flex-direction: column; justify-content: stretch; align-items: stretch;">
+    <div class="top-panel">
+        <h3><b>Ag Ibrahim</b> Mohamed Ali</h3>
+        <h4>Spécialiste Étude et Développement SI <br />chez Société Générale Corporate Investment and Banking</h4>
+    </div>
+    <div style="flex-grow: 1;display: flex; flex-direction: row; justify-content: space-between; align-items: stretch;">
+        <div class="left-panel">
+            <section>
+                <div style="padding-left: 50px; border-bottom: 1px solid black; border-radius: 3px;">
+                    <h4 style="margin: 0; padding: 0">Expérience</h4>
+                </div>
+                <table>
+                    <tr>
+                        <td class="date">Nov. 2018 – Aujourd’hui</td>
+                        <td style="padding: 5px;">
+                            <div class="title">Spécialiste Etude et Développement SI</div>
+                            <div class="subtitle"><i>Société Générale, Paris, France</i></div>
+                            <ul>
+                                <li>Développement et maintenance des applications des desks de trading equity
+                                    derivatives.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="date">Oct. 2018</td>
+                        <td style="padding: 5px;">
+                            <div class="title">Développeur Full Stack</div>
+                            <div class="subtitle"><i>Société Générale, Paris, France</i></div>
+                            <ul>
+                                <li>Développement du MVP de la startup interne MÉTIS.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="date">Mai. 2017 – Sept. 2018</td>
+                        <td style="padding: 5px;">
+                            <div class="title">Stagiaire et Alternant</div>
+                            <div class="subtitle"><i>Société Générale, Paris, France</i></div>
+                            <ul>
+                                <li>Développement de POC Fin'Tech.</li>
+                                <li>Participation et Pré-Sélection à l'Internal Startup Call.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="date">Mai. 2016 – Juil. 2016</td>
+                        <td style="padding: 5px;">
+                            <div class="title">Stagiaire</div>
+                            <div class="subtitle"><i>Université Grenoble Alpes, Grenoble, France</i></div>
+                            <ul>
+                                <li>Développement d'une application de gestion de carrière des enseignants-chercheurs.
+                                    (Bootstrap, PHP, MySQL, Tomcat)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="date">2008 – 2012</td>
+                        <td style="padding: 5px;">
+                            <div class="title">Assistant</div>
+                            <div class="subtitle"><i>S.E.R.I.M (Société d'étude et recherche industrielle du Mali) </i>
+                            </div>
+                            <ul>
+                                <li>Employé polyvalent, archivage et numérisation du traitement des dossiers des
+                                    promoteurs.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <div style="padding-left: 50px; border-bottom: 1px solid black; border-radius: 3px;">
+                    <h4 style="margin: 0; padding: 0">Formation</h4>
+                </div>
+                <table>
+                    <tr>
+                        <td class="date">2018</td>
+                        <td style="padding: 5px;">
+                            <div class="title">Master MIAGE</div>
+                            <div class="subtitle"><i>Université Grenoble Alpes, Grenoble, France</i></div>
+                            <ul>
+                                <li>MyFridge: Développement d’une application Android</li>
+                                <li>Enerdget: Développement d'un dashboard IoT ThingsBoard pour une start-up d'énergie
+                                </li>
+                                <li>Jeu d'entreprise VePick: Simulation de gestion d'entreprise</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="date">2016</td>
+                        <td style="padding: 5px;">
+                            <div class="title">Licence MIAGE</div>
+                            <div class="subtitle"><i>Université Grenoble Alpes, Grenoble, France</i></div>
+                            <ul>
+                                <li>Projet applicatif intégrateur: Développement d’une
+                                    application de gestion des tournées d’intervenants
+                                    médicale (Java, AngularJS, C++, Oracle)</li>
+                                <li>A2Z : Développement d’un framework pour le marché
+                                    du logiciel d’échange (Java)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="date">2015</td>
+                        <td style="padding: 5px;">
+                            <div>Licence Mathématiques et Informatique</div>
+                            <div class="subtitle"><i>Université Grenoble Alpes, Grenoble, France</i></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="date">2012</td>
+                        <td style="padding: 5px;">
+                            <div>Baccalauréat, Sciences, Mention Assez Bien</div>
+                            <div class="subtitle"><i>Lycée Français Liberté, Bamako, Mali</i></div>
+                            <div class="subtitle"><i>Lycée Français Théodore Monod, Nouakchott, Mauritanie</i></div>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+        <div class="right-panel">
+            <div class="glass-frame"></div>
+            <section>
+                <div style="border-bottom: 1px solid black; border-radius: 3px;">
+                    <h4 style="margin: 0; padding: 0">Contact</h4>
+                </div>
+                <div>
+                    <h5 style="margin: 0; padding: 0">LinkedIn</h5>
+                    <div style="font-size: smaller">
+                        https://www.linkedin.com/in/mohamed-ali-ag-ibrahim/
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div style="border-bottom: 1px solid black; border-radius: 3px;">
+                    <h4 style="margin: 0; padding: 0">Langages</h4>
+                </div>
+                <div style="text-align: right;">
+                    <h5 style="margin: 0; padding: 0">Front-End</h5>
+                </div>
+                React, Angular, AngularJS, PHP, HTML, CSS, Javascript
+                <div style="text-align: right;">
+                    <h5 style="margin: 0; padding: 0">Back-End</h5>
+                </div>
+                Java, SpringBoot, Python, Flask, NodeJS
+                <div style="text-align: right;">
+                    <h5 style="margin: 0; padding: 0">Autre</h5>
+                </div>
+                VBA, C++, C, Oracle, MySQL, PostgreSQL, R, Spark, Hadoop, Shell, R, Ada, ARM, MathLab,
+                Ocaml, Prolog, UNIX et MS-DOS
+                <div style="text-align: right;">
+                    <h5 style="margin: 0; padding: 0">Humain</h5>
+                </div>
+                Français, Anglais, Espagnol, Tamashek, Bambara
+            </section>
+            <section>
+                <div style="border-bottom: 1px solid black; border-radius: 3px;">
+                    <h4 style="margin: 0; padding: 0">Outils</h4>
+                </div>
+                GIT, Jenkins, Docker, Piwik, Sonar, Méthodes Agiles
+            </section>
+            <section>
+                <div style="border-bottom: 1px solid black; border-radius: 3px;">
+                    <h4 style="margin: 0; padding: 0">Centres d'intérêt</h4>
+                </div>
+                La musique, la lecture, le cinéma et le Basket-ball.
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
